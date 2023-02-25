@@ -1,0 +1,41 @@
+button {
+    width: 80%;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+  input {
+    font-size: 1.2rem;
+  }
+  label {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  body{
+    background-image: url('/image/—Pngtree—abstract\ modern\ neon\ frame\ background_1178251.jpg');
+    background-size: cover;
+    background-position: center;
+}
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkorange;
+  }
+
+  p{
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+
+  @media (max-width: 600px) {
+    .description {
+      display: none;
+    }
+  }
+  
+
+  h1 {
+    font-size: 3vw;
+  }

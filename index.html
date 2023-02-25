@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gerador de senhas</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="https://img1.gratispng.com/20180413/vqw/kisspng-random-password-generator-password-manager-passwor-keys-5ad122977d19b1.7899275015236553195124.jpg"
+
+ </head>
+
+<body class="container">
+
+    <form class="caixa">
+        <form>
+            <h1> Gerador de senhas </h1>
+            <label for="tamanho-senha">Tamanho da senha:</label>
+            <input type="number" id="tamanhoSenha" name="tamanhoSenha" min="5" max="30" value="5">
+            <br><br>
+            <button type="button" id="gerarSenha">Gerar senha</button>
+          </form>
+          
+          <p id="senhaGerada"></p>
+          <textarea id="novaSenha" rows="2" cols="30"> ${´novaSenha´}  </textarea>
+          <button id="copy" title="Copy Textarea Content">Copy</button>
+      <script src="/script/script.js"></script>
+</body>
+</html>
+
