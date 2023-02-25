@@ -12,17 +12,18 @@ function gerarSenha(tamanho) {
     const tamanhoSenha = document.getElementById("tamanhoSenha").value;
     const novaSenha = gerarSenha(tamanhoSenha);
     document.getElementById("senhaGerada").innerHTML = novaSenha;
-  });
-
-  document.getElementById("copy").onclick = function() {
-    var text = document.getElementById("novaSenha").value;
- 
-    navigator.clipboard.writeText(text)
-    .then(() => {
-        console.log('Text copied to clipboard');
-    })
-    .catch(err => {
-        console.error('Error in copying text: ', err);
-    });
-}
-
+    document.getElementById("copy").onclick = function() {
+        var text = novaSenha
+        console.log(text)
+        alert('a Senha foi copiada')
+        
+     
+        navigator.clipboard.writeText(text)
+        .then(() => {
+            console.log('Text copied to clipboard');
+        })
+        .catch(err => {
+            console.error('Error in copying text: ', err);
+        });
+        
+  }});

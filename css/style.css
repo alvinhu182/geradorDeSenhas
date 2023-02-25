@@ -2,13 +2,48 @@ button {
     width: 80%;
     font-size: 1.2rem;
     padding: 0.5rem;
+        background-color: whitesmoke;
+        border: none;
+        margin-top: 20px;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 25px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in-out; 
+      
+  }
+  button:hover {
+    background-color: #e90707;
+    color: #fff;
+    cursor: pointer;
   }
   input {
     font-size: 1.2rem;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out; 
   }
   label {
+    background-color: whitesmoke;
     font-size: 1.2rem;
     font-weight: bolder;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out; 
   }
   body{
     background-image: url('/image/—Pngtree—abstract\ modern\ neon\ frame\ background_1178251.jpg');
@@ -21,21 +56,41 @@ button {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: darkorange;
+    
   }
 
   p{
+    background-color: whitesmoke;
     font-size: 1.2rem;
     font-weight: bolder;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out; 
+
   }
 
+
+
+  h1 {
+    font-size: 3vw;
+    background-color: whitesmoke;
+    font-weight: bolder;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out; 
+  }
   @media (max-width: 600px) {
     .description {
       display: none;
     }
   }
   
-
-  h1 {
-    font-size: 3vw;
-  }

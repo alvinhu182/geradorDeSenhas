@@ -16,14 +16,15 @@
         <form>
             <h1> Gerador de senhas </h1>
             <label for="tamanho-senha">Tamanho da senha:</label>
-            <input type="number" id="tamanhoSenha" name="tamanhoSenha" min="5" max="30" value="5">
+            <input type="number" id="tamanhoSenha" name="tamanhoSenha" min="5" max="30" value="8">
             <br><br>
             <button type="button" id="gerarSenha">Gerar senha</button>
+            <p id="senhaGerada"></p>
+        
+          <button type="button" id="copy" title="Copy Textarea Content">Copiar</button>
           </form>
           
-          <p id="senhaGerada"></p>
-          <textarea id="novaSenha" rows="2" cols="30"> ${´novaSenha´}  </textarea>
-          <button id="copy" title="Copy Textarea Content">Copy</button>
+          
       <script src="/script/script.js"></script>
 </body>
 </html>
